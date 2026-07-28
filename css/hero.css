@@ -11,7 +11,8 @@
     background-size: cover;
     padding-block: 188px;
     max-width: 1440px;
-
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-container {
@@ -47,7 +48,7 @@ padding: 16px 32px;
 border: none;
 border-radius: 4px;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-transition: 250ms;
+transition: background-color: #4d5ae5; 250ms ease;
 }
 
 .hero-btn:hover,

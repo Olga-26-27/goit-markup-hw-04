@@ -56,9 +56,10 @@ align-items: center;
 justify-content: flex-start;
 flex-direction: row;
 gap: 24px;
-width: 232px;
+width: 40px;
 height: 40px;
-
+background-color: #4d5ae5;
+border-radius: 50%;
 }
 
 .social-icon .link{
@@ -66,7 +67,7 @@ height: 40px;
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    background-image: #4d5ae5;
+    background-color: #4d5ae5;
     justify-content: center;
     align-items: center;
     display: flex;

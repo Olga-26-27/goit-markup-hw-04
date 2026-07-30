@@ -109,14 +109,19 @@ transition: color 250ms;
     .address-menu {
       margin-left: auto;
     }
+    .nav-link.current {
+      color: #404bbf;
+      position: relative;
+    }
 
     .nav-link.current::after {
       content: "";
-      position: relative
+      position: relative;
       left: 0;
-      bottom: 0px; /* Позиціонується в самому низу посилання поверх border шапки */
+      bottom: 0px; 
       width: 100%;
       height: 4px;
-      background-color: #2196f3;
+      background-color: #404bbf;;
       border-radius: 2px;
     }
+

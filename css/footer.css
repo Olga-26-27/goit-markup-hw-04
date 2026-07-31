@@ -52,3 +52,56 @@ color: #f4f4fd;
     padding-left: 15px;
     padding-right: 15px;
   }
+
+  /* Правый блок (Соцсети) */
+.footer-social {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Отдельный класс заголовка с жирностью 500 и контролируемым отступом */
+.social-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin-bottom: 16px; /* Вертикальный отступ явно задан через margin */
+}
+
+/* Список соцсетей */
+.social-list {
+    list-style: none;
+    display: flex;
+    gap: 16px; /* Горизонтальный отступ строго 16px */
+}
+
+.social-item {
+    /* Элемент списка выступает просто контейнером */
+}
+
+/* Ссылки (Стили перенесены сюда, гарантирован размер и кликабельность) */
+.social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;          /* Гарантированный размер */
+    height: 40px;         /* Гарантированный размер */
+    background-color: #4d5ae5; /* Цвет фона по умолчанию перенесен на ссылку */
+    border-radius: 50%;   /* Корректное скругление ссылки */
+    color: #ffffff;
+    text-decoration: none;
+    /* Плавный переход для background-color */
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Правильное состояние hover/focus для ссылок */
+.social-link:hover,
+.social-link:focus {
+    background-color: #31d0aa; /* Нужный цвет при ховере/фокусе */
+    outline: none;
+}
+
+.social-link i {
+    font-size: 18px;
+}

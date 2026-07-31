@@ -105,3 +105,35 @@ color: #f4f4fd;
 .social-link i {
     font-size: 18px;
 }
+
+.footer-social-title {
+    font-weight: 500; 
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin-bottom: 16px; 
+  }
+
+  .footer-social {
+    display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+gap: 16px;
+width: 208px;
+height: 80px;
+  }
+
+  .kolonki{
+    display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: row;
+gap: 120px;
+padding-block: 0px;
+padding-inline: 15px;
+width: 820px;
+height: 112px;
+max-width: 1158px;
+  }

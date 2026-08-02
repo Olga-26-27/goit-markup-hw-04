@@ -9,6 +9,12 @@
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
+.footer-left {
+    max-width: 264px;
+    margin-right: 120px;
+  }
+
 .text-footer {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -53,57 +59,62 @@ color: #f4f4fd;
     padding-right: 15px;
   }
 
-  /* Правый блок (Соцсети) */
-.footer-social {
+  .footer-right {
     display: flex;
     flex-direction: column;
-}
+  }
 
-/* Отдельный класс заголовка с жирностью 500 и контролируемым отступом */
 .social-title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
-    margin-bottom: 16px; /* Вертикальный отступ явно задан через margin */
+    margin-bottom: 16px; 
 }
 
-/* Список соцсетей */
+
 .social-list {
     list-style: none;
     display: flex;
-    gap: 16px; /* Горизонтальный отступ строго 16px */
+    gap: 16px; 
 }
 
 .social-item {
-    /* Элемент списка выступает просто контейнером */
-}
+    width: 40px;
+    height: 40px;
+  }
 
-/* Ссылки (Стили перенесены сюда, гарантирован размер и кликабельность) */
-.social-link {
+.link {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40px;          /* Гарантированный размер */
-    height: 40px;         /* Гарантированный размер */
-    background-color: #4d5ae5; /* Цвет фона по умолчанию перенесен на ссылку */
-    border-radius: 50%;   /* Корректное скругление ссылки */
-    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
     text-decoration: none;
-    /* Плавный переход для background-color */
+    background-color: #4d5ae5; 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Правильное состояние hover/focus для ссылок */
-.social-link:hover,
-.social-link:focus {
-    background-color: #31d0aa; /* Нужный цвет при ховере/фокусе */
+.link:hover,
+.link:focus {
+    background-color: #31d0aa; 
     outline: none;
 }
 
-.social-link i {
+.icon {
+    fill: #f4f4fd;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+.social-link {
     font-size: 18px;
+}
+
+.link:hover .icon,
+.link:focus .icon {
+  fill: #ffffff;
 }
 
 .footer-social-title {
@@ -125,15 +136,6 @@ width: 208px;
 height: 80px;
   }
 
-  .kolonki{
+  .footer-container {
     display: flex;
-align-items: flex-start;
-justify-content: flex-start;
-flex-direction: row;
-gap: 120px;
-padding-block: 0px;
-padding-inline: 15px;
-width: 820px;
-height: 112px;
-max-width: 1158px;
   }

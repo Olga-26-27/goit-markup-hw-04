@@ -48,9 +48,10 @@
     border-radius: 0 0 4px 4px;
    
     overflow: hidden;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 
-                0px 1px 1px rgba(0, 0, 0, 0.14), 
-                0px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 
+                0 1px 1px 0 rgba(46, 47, 66, 0.16), 
+                0 1px 6px 0 rgba(46, 47, 66, 0.08);
+                  
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), 
                 box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
@@ -134,5 +135,13 @@
             
             transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
+
+        .social-svg,
+        .icon {
+          fill: #f4f4fd;
+          transition: fill 250ms ease; 
+        }
+
+       
         
     

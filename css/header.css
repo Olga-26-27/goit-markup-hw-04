@@ -74,7 +74,12 @@ padding-bottom: 24px;
 display: inline-block;
 transition: color 250ms;
   }
-  
+
+  .nav-link,
+  .contacts-link {
+    transition: all 250ms ease;
+  }  
+
 .nav-link:hover,
 .nav-link:focus {
   color: #404bbf;}

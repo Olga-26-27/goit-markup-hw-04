@@ -32,8 +32,6 @@ gap: 40px;
   .logo {
     font-weight: 700;
     font-size: 18px;
-    
-    /* line-height: 24px; */ 
     line-height: 1.33333;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -46,8 +44,6 @@ gap: 40px;
   .logospan {
     font-weight: 700;
 font-size: 18px;
-
-/* line-height: 24px; */ 
 line-height: 1.33333;
 letter-spacing: 0.03em;
 text-transform: uppercase;
@@ -60,7 +56,6 @@ color: #2e2f42;
     font-weight: 500;
 font-size: 16px;
 text-decoration: none; 
-/* line-height: 24px; */ 
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2e2f42;
@@ -75,10 +70,11 @@ display: inline-block;
 transition: color 250ms;
   }
 
-  .nav-link,
-  .contacts-link {
-    transition: all 250ms ease;
-  }  
+
+.nav-link, 
+.contacts-link {
+  transition: color 250ms ease;
+}
 
 .nav-link:hover,
 .nav-link:focus {
@@ -90,7 +86,6 @@ transition: color 250ms;
     font-weight: 400;
     font-size: 16px;
     text-decoration: none; 
-/* line-height: 24px; */ 
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
